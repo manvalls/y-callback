@@ -1,5 +1,4 @@
-var toYielded = require('y-walk').toYielded,
-    Resolver = require('y-resolver'),
+var Resolver = require('y-resolver'),
     Su = require('u-su'),
     
     yielded = Su();
@@ -16,7 +15,7 @@ module.exports = function(){
   }
   
   ret[yielded] = resolver.yielded;
-  ret[toYielded] = toYd;
+  ret.yToWalkable = toYd;
   
   return ret;
 };

@@ -4,7 +4,6 @@
   "description": "Callbacks for generators",
   "main": "main.js",
   "dependencies": {
-    "y-walk": "",
     "y-resolver": "",
     "u-su": ""
   },
