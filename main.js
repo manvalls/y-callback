@@ -15,7 +15,7 @@ module.exports = function(){
   }
   
   ret[yielded] = resolver.yielded;
-  ret.yToWalkable = toYd;
+  ret[Resolver.toYielded] = toYd;
   
   return ret;
 };
