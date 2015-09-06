@@ -1,6 +1,6 @@
 {
   "name": "y-callback",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Callbacks for generators",
   "main": "main.js",
   "dependencies": {
