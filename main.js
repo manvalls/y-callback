@@ -1,7 +1,6 @@
 var Resolver = require('y-resolver'),
-    Su = require('u-su'),
 
-    yielded = Su();
+    yielded = Symbol();
 
 function toYd(){
   return this[yielded];
