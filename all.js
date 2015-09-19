@@ -1,4 +1,5 @@
 var Resolver = require('y-resolver'),
+    getter = Resolver.Yielded.getter,
 
     rs = Symbol(),
     yds = Symbol();
@@ -42,7 +43,7 @@ module.exports = function(cb){
   };
 
   ret[yds] = [];
-  ret[Resolver.toYielded] = toYd;
+  ret[getter] = toYd;
 
   return ret;
 };
